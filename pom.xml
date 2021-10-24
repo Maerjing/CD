@@ -4,13 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>CD</artifactId>
+    <groupId>com.wang.cd</groupId>
+    <artifactId>cd</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>cd</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>cd-coupon</module>
+        <module>cd-member</module>
+        <module>cd-order</module>
+        <module>cd-product</module>
+        <module>cd-ware</module>
+        <module>renren-fast</module>
+    </modules>
 
 </project>
