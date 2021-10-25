@@ -10,7 +10,7 @@
     <name>cd</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
-
+<!--6666-->
     <modules>
         <module>cd-coupon</module>
         <module>cd-member</module>
