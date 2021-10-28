@@ -8,7 +8,8 @@
 
 package com.wang.common.xss;
 
-import io.renren.common.exception.RRException;
+
+import com.wang.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
