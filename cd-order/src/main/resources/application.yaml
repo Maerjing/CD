@@ -4,14 +4,15 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://192.168.45.131:3306/cd_pms
-  application:
-    name: cd-product
+    url: jdbc:mysql://192.168.45.131:3306/cd_oms
 
+  application:
+    name: cd-order
   cloud:
     nacos:
       discovery:
         server-addr: 192.168.45.131:8848
+
 
 mybatis-plus:
   #*mapper.xml文件的位置
@@ -21,4 +22,4 @@ mybatis-plus:
     db-config:
       id-type: auto
 server:
-  port: 10000
+  port: 9000

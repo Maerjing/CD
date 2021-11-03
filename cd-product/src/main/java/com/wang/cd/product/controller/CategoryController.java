@@ -22,9 +22,10 @@ import com.wang.common.utils.R;
  *
  * @author wangchen
  * @email 2213768002@qq.com
- * @date 2021-10-28 21:46:30
+ * @date 2021-10-29 20:47:59
  */
 @RestController
+@RequestMapping("product/category")
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;

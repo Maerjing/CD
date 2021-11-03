@@ -3,12 +3,12 @@ package com.wang.cd.product;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-//扫描dao层
-@MapperScan("com.wang.cd.product.dao")
 @SpringBootApplication
-public class CdProductAplication {
+@MapperScan("com.wang.cd.product.dao")
+public class CdProductApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CdProductAplication.class,args);
+        SpringApplication.run(CdProductApplication.class, args);
     }
 }

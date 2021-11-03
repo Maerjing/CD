@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cd-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.45.131:8848
+        file-extension: yaml

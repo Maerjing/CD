@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CdProductApplicationTests {
-    @Autowired
-    BrandService brandService;
+public class CdProductApplicationTests {
+   @Autowired
+   BrandService brandService;
 
     @Test
     void contextLoads() {
