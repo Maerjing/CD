@@ -1,0 +1,3 @@
+spring.application.name=cd-gateway
+spring.cloud.nacos.discovery.server-addr=101.37.152.148:8848
+spring.cloud.nacos.config.namespace=bb6875ea-5860-4c17-a3fa-40d72759a291

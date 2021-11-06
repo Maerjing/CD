@@ -1,9 +1,9 @@
 spring:
   application:
-    name: cd-coupon
+    name: cd-member
+
   cloud:
     nacos:
       config:
         server-addr: 101.37.152.148:8848
-        namespace: 60f5bb40-01da-4f53-83c1-76044f44d26e
         file-extension: yaml
