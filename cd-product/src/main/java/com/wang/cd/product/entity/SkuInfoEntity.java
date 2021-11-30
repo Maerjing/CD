@@ -21,6 +21,7 @@ public class SkuInfoEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	//ddddddddddddddddddd
 	//lllllllll
+	//哈哈哈哈哈哈
 	/**
 	 * skuId
 	 */
